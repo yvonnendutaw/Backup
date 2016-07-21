@@ -15,6 +15,9 @@ li,
 p {
 	font-family: 'Ruluko', sans-serif;
 }
+h2{
+	color: whitesmoke;
+}
 
 body {
 	padding-top: 20px;
@@ -110,8 +113,8 @@ footer a {
 	float: right;
 	position: absolute;
 	top: 54px;
-	right: 0px;
 	background: #706677;
+	right: 0px;
 	height: 100%;
 	color: whitesmoke;
 }
@@ -214,6 +217,12 @@ a.icon {
 	margin: 5px 0;
 	padding-right: 0;
 }
+.form-control{
+		border-radius: 5px;
+		height: 10px;
+		margin-top: 10px;
+
+}
 
 .photo-user {
 	position: absolute;
@@ -247,6 +256,14 @@ a.icon {
 
 .navbar {
 	min-height: 53px;
+}
+
+ul.nav.navbar-nav {
+	float: right;
+}
+
+@media (min-width: 768px) .navbar-header {
+	float: right;
 }
 
 legend {
@@ -285,4 +302,7 @@ input[type='checkbox'] {
 
 div#navbar-main {
 	background: #37323a;
+}
+.navbar-header .nav>li {
+    float: left;
 }
